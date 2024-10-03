@@ -29,12 +29,12 @@ The pre-sessional material, that should be reviewed in Preparation for this modu
 |--------------------------|-------------------------------------|------------|
 |2024-10-07 9:00-12:00+ Mon | Github and Python environments| Rhodri Nelson|
 |2024-10-08 9:00-12:00 Tue | Numpy and Scipy | Rhodri Nelson |
-|2024-10-09 9:00-12:00 Wed | Code optimisation | Marijan Beg |
+|2024-10-09 9:00-12:00 Wed | Code profiling and optimisation | Marijan Beg |
 |2024-10-10 9:00-12:00 Thu | Debugging and testing| Rhodri Nelson |
 |2024-10-11 9:00-16:00 Fri | Mock Coding Assignment (Unassessed)++ | Rhodri Nelson |
-|2024-10-14 9:00-12:00 Mon | Python Packages | Marijan Beg |
+|2024-10-14 9:00-12:00 Mon | Python Packaging | Marijan Beg |
 |2024-10-15 9:00-12:00 Tue | The cloud and CI/CD | Rhodri Nelson|
-|2024-10-16 9:00-12:00 Wed | Floating points errors | Marijan Beg |
+|2024-10-16 9:00-12:00 Wed | Floating point arithmetic | Marijan Beg |
 |2024-10-17 9:00-12:00 Thu | Pandas | Rhodri Nelson |
 |2024-10-18 9:00-16:00 Fri | No lecture - Assignment 2 submission | |
 
