@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MyPackage"
+version = "0.1.0"
+description = "example of a custom Python numerical package"
+authors = ["Sukhmit Singh <sukhmitsingh442@gmail.com>"]
+
+[project.dependencies]
+python="3.12"
+pip="24.3"
+pandas="2.2.3" 
+numpy="2.1.2"
+
+[project.optional-dependencies]

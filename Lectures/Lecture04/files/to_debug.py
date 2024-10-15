@@ -39,7 +39,7 @@ def bench_optimizer(optimizer, param_grid):
     """ Find roots for all the functions, and upper and lower bounds
         given and return the total number of function calls.
     """
-    return sum(apply_optimizer(optimizer, func, a, b)
+    return sum(apply_optimizer(optimizer, func, a, b)[0]
                for func, a, b in param_grid)
 
 
@@ -51,13 +51,17 @@ def compare_optimizers(optimizers):
     random_a = -1.3 + np.random.random(size=100)
     random_b =   .3 + np.random.random(size=100)
     param_grid = product(FUNCTIONS, random_a, random_b)
+    print(param_grid)
+
+
     print("Benching 1D root-finder optimizers from scipy.optimize:")
     for optimizer in OPTIMIZERS:
         print('% 20s: % 8i total function calls' % (
                     optimizer.__name__, 
                     bench_optimizer(optimizer, param_grid)
-                ))
-
+                )) 
 
 if __name__ == '__main__':
-    compare_optimizers(OPTIMIZERS)
+    compare_optimizers(OPTIMIZERS) 
+
+
